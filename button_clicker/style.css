@@ -1,49 +1,104 @@
-*{
+* {
     margin: 0 auto;
     padding: 0;
 }
 
-#navbar{
-    background-color: rgb(204,204,204);
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+    width: 700px;
+    margin: 0px auto;
+
+}
+
+#navbar {
+    background-color: rgb(204, 204, 204);
     display: flex;
-    width: 600px;
+    width: 700px;
     height: 50px;
-    border: solid red;
     align-items: center;
+    justify-content: space-between;
 }
 
-
-#searchbar{
+.searchbar {
     border: solid black;
 }
-.login{
-background-color: blue;
-color: white;
-width: 50px;
-box-shadow: 2px 2px black;
-border: solid red;
+
+.login {
+    background-color: blue;
+    color: white;
+    width: 50px;
+    box-shadow: 2px 2px black;
 }
 
-#main{
-    width: 650px;
-    height: 600px;
-    border: solid red;
-    margin-top: 20px;
+#main {
     display: flex;
+    justify-content: center;
+
 }
 
-.ninja1{
+.you,
+.ninjanouns {
+    margin: 0;
+}
+
+.ninjanoun1,
+.ninjanoun2 {
+    border: solid black;
     height: 150px;
-    width: 300px;
-    border: solid black;
+    width: 350px;
+    margin-top: 20px;
+    padding: 15px;
     display: flex;
-    margin: 20px;
-    margin-right: 350px;
 }
 
-#youbox{
-    height: 100px;
-    width: 100px;
-    border: solid  black;
+h4 {
+    font-style: italic;
+}
+
+.title {
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.define {
+    margin-left: 20px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+span {
+    color: blue;
+    text-decoration: underline;
+}
+
+.ninja-likes {
+    background-color: rgb(255, 217, 102);
+    box-shadow: 5px 5px black;
+    width: 80px;
+    height: 30px;
+}
+
+.dojoyou {
+    height: 100px;
+    width: 175px;
+    border: solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.defbutton {
+    background-color: lightgreen;
+    width: 150px;
+    height: 30px;
+    box-shadow: 5px 5px black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
 }
