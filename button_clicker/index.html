@@ -14,7 +14,7 @@
         <div id="navbar">
             <h1>Dojonary</h1>
             <input class="searchbar" type="text" placeholder="Search">
-            <button class="login">Login</button>
+            <button class="login" onclick="turnOff(this)">Login</button>
         </div>
         <div id="main">
             <!--leftside-->
@@ -24,7 +24,7 @@
                         <h2>ninja</h2>
                         <h4>noun</h4>
                         <p class="plural">Plural:ninjas</p>
-                        <button class="ninja-likes">13 likes</button>
+                        <button class="ninja-likes" onclick="alert('Nija was liked')">13 likes</button>
                     </div>
 
                     <div class="definition">
@@ -52,11 +52,13 @@
             <div class="you">
                 <div class="dojoyou">
                     <p>Dojonary is defined by YOU</p>
-                    <button class="defbutton">Add Definition</button>
+                    <button class="defbutton" onclick="hide(this)">Add Definition</button>
                 </div>
             </div>
     </div>
 </div>
+
+<script src="script.js"></script>
 </body>
 
 </html>
