@@ -1,5 +1,13 @@
+function personal(){
+    alert("Ninja was liked!");
+}
+
 function turnOff(element) {
-    element.innerText = "Logout";
+    if (element.innerText == "Login") {
+        element.innerText = "Logout";
+    } else {
+        element.innerText = "Login";
+    }
 }
 
 function hide(element){
