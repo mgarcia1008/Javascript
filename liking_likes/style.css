@@ -9,7 +9,7 @@ width: 400px;
     align-items: center;
 }
 
-#like_button{
+button{
     background-color: yellow;
     box-shadow: 5px 5px black;
     width: 60px;
