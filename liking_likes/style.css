@@ -1,0 +1,24 @@
+.container{
+border: solid black;
+width: 400px;
+}
+
+.user{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#like_button{
+    background-color: yellow;
+    box-shadow: 5px 5px black;
+    width: 60px;
+    height: 30px;
+    font-weight: bold;
+
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+}
