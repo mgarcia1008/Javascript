@@ -1,19 +1,20 @@
-*{
+* {
     margin: 0 auto;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.container{
-border: solid black;
-width: 960px;
-height: 960px;
+.container {
+    border: solid black;
+    width: 960px;
+    height: 960px;
 }
 
-.row{
+.row {
     display: flex;
 }
-.navbar{
+
+.navbar {
     width: 700px;
     height: 50px;
     background-color: black;
@@ -21,47 +22,47 @@ height: 960px;
     padding-left: 20px
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
-.profile_column{
+.profile_column {
     margin: 0;
     display: flex;
 }
-.profile_content{
+
+.profile_content {
     height: 200px;
     width: 150px;
     border: solid black;
     margin-top: 20px;
     margin-left: 120px;
     text-align: center;
-
-   
-
 }
-.profilepic{
+
+.profilepic {
     border-radius: 50%;
     height: 50px;
     width: 50px;
     margin-bottom: 20px;
     margin-left: 5px;
     margin-top: 20px;
+}
 
- }
-
- 
-h3{
+h3 {
     margin-top: 20px;
 }
-a{
+
+a {
     color: blue;
     text-decoration: underline;
 }
-.friends_column{
+
+.friends_column {
     display: flex;
 }
-.friends{
+
+.friends {
     border: solid black;
     height: 100px;
     width: 400px;
@@ -69,11 +70,12 @@ a{
     padding: 20px;
 }
 
-.likes{
+.likes {
     display: flex;
     align-items: center;
 }
-button{
+
+button {
     background-color: yellow;
     box-shadow: 5px 5px black;
     width: 60px;
@@ -81,6 +83,6 @@ button{
     font-weight: bold;
 }
 
-p{
+p {
     margin-top: 20px;
 }
